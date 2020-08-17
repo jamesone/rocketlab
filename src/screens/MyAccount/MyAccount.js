@@ -6,6 +6,7 @@ import styles from './MyAccount.module.scss';
 
 type Props = {
   title: string,
+  myAccount: MyAccountFormType,
 };
 
 const MyAccount = ({ title, myAccount }: Props) => {

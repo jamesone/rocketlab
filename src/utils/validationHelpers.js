@@ -2,8 +2,8 @@
 import stringFormatter from './stringFormatter';
 
 const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const VALID_LANDLINE_LENGTH: string = 8;
-const VALID_MOBILE_LENGTH: string = 10;
+const VALID_LANDLINE_LENGTH: number = 8;
+const VALID_MOBILE_LENGTH: number = 10;
 
 const isEmail = (email: string): boolean => emailRegex.test(email);
 

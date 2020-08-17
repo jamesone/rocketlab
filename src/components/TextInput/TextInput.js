@@ -55,16 +55,16 @@ class TextInput extends Component<Props, State> {
    * try and run the props.onPress, if this doesn't exist we'll
    * fallback to the default behaviour & focus the input.
    */
-  _onClick = () => {
+  _onClick = (): void => {
     const { onPress } = this.props;
     if (onPress) {
       onPress();
-    } else if (this._inputRef?.focus) {
+    } else if (this._inputRef.focus) {
       this._inputRef.focus();
     }
   };
 
-  _setInputRef = (el) => {
+  _setInputRef = (el: any) => {
     this._inputRef = el;
     if (typeof this.props.inputRef === 'function') {
       this.props.inputRef(el);

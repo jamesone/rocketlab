@@ -13,6 +13,7 @@ type Props = {
   rightBtn: any,
   leftBtn: any,
   onClickRightBtn: void,
+  onClickLeftBtn: void,
 };
 
 /** Right button: By default, navigate home when hitting the back button */

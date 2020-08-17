@@ -15,6 +15,7 @@ import styles from './EditMyAccount.module.scss';
 type Props = {
   title: string,
   myAccount: MyAccountFormType,
+  dispatch: void,
 };
 
 type State = {
@@ -33,7 +34,7 @@ const emptyMyAccountForm = {
 };
 
 class EditMyAccount extends Component<Props, State> {
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
       editMyAccountForm: props.myAccount,
@@ -191,7 +192,7 @@ class EditMyAccount extends Component<Props, State> {
   };
 
   /** Toggle edit mode */
-  _toggleEnableEdit = (editEnabled) => this.setState({ editEnabled });
+  _toggleEnableEdit = (editEnabled: boolean) => this.setState({ editEnabled });
 
   /**
    * Based on the editEnabled state, we'll either show
