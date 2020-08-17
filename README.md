@@ -1,16 +1,17 @@
 # Rocketlab exercise
 
+Below you'll find all the available scripts.
+
 ## Notes
 
 1. I noticed that the BIO border color DOES NOT change to red if there's an error. This leaves an inconsistency in the UI. If this was a real project, I'd ask the designer who designed it to double check this detail.
 
 2. As mentioned on the call with Eugene, I'm not an expert at testing and this is something I can definitely improve on with the right guidance. I could've added a more extensive test suite, but for the sake of this exercise, I've tested the parts I think are the most important. I know testing is a super important part to any project and it's something I want to become an expert at!
 
-3. I spent around 4.5 - 5.5hrs over the weekend on this project.
+3. I spent around 5 - 6hrs over the weekend on this project.
 
 4. I would appreciate any feedback on my code :)
 
-# CREATE REACT APP DOCUMENTATION
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
