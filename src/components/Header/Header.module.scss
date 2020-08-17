@@ -1,0 +1,35 @@
+@import './src/assets/styles/mixins.scss';
+
+.container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-back {
+  font-size: 30px;
+}
+
+.header-left,
+.header-right {
+  flex: 1;
+  align-self: center;
+}
+
+.header-left {
+  text-align: left;
+  display: flex;
+  margin-left: 10px;
+}
+
+.header-title {
+  margin-left: 20px;
+  @include content-label;
+  font-size: 25px;
+}
+
+.header-right {
+  text-align: right;
+  margin-right: 10px;
+}

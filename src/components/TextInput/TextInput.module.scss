@@ -1,0 +1,55 @@
+@import './src/assets/styles/variables.scss';
+@import './src/assets/styles/fonts.scss';
+@import './src/assets/styles/mixins.scss';
+
+.input {
+  background-color: $color-white;
+  padding: $input-padding;
+  border: none;
+  border-bottom: solid 1px $color-black;
+  width: 100%;
+  font-family: $font-family;
+  &:focus {
+    outline: none;
+  }
+}
+
+// Only difference from input is border & set height
+.textarea {
+  border: solid 1px $color-black;
+  min-height: 100px;
+}
+
+.input-wrapper {
+  border-bottom-width: 1px;
+  border-bottom-color: $color-black;
+  padding-top: $content-padding;
+  padding-bottom: $content-padding;
+}
+
+.input-wrapper-error {
+  border-bottom-color: $color-red;
+}
+
+.textarea-wrapper-error {
+  border-color: $color-black;
+}
+
+.textarea-label {
+  padding-bottom: 10px;
+}
+
+.label {
+  @include content-label;
+  text-align: left;
+}
+
+.error-label {
+  color: $color-red;
+}
+
+.error-message {
+  color: $color-red;
+  font-size: $font-size-small;
+  text-align: right;
+}

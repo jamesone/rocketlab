@@ -1,0 +1,24 @@
+// Colors
+$color-white: #ffffff;
+$color-light-gray: #f6f8fa;
+$color-black: #000000;
+$color-red: #d62631;
+$color-aqua: rgb(87, 174, 146);
+
+// Re-usable generic types (E.g bg color)
+$background-color: $color-white;
+$input-color: $color-light-gray;
+$text-color: $color-black;
+
+// Font sizes
+$font-size-small: 13px;
+$font-size-medium: 17px;
+
+// Margin / Padding
+$screen-margin: 0 10px 0 10px;
+$input-padding: 5px 0 5px 0px;
+$textarea-padding: 5px 5px 5px 5px;
+
+// Re-use for consistent padding around app
+// E.g This could be used for adding padding between 2 inputs
+$content-padding: 10px;

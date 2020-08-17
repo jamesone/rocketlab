@@ -1,0 +1,8 @@
+@import './variables.scss';
+@import './fonts.scss';
+
+@mixin content-label {
+  color: $color-aqua;
+  font-size: $font-size-medium;
+  font-weight: bold;
+}
