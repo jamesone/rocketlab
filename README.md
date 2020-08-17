@@ -13,7 +13,13 @@ Below you'll find all the available scripts.
 4. I would appreciate any feedback on my code :)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
+
+To set this project up, all you'll need to do is run the following:
+
+1. `yarn install` - Run from the root folder of the project. WOOOOO HOO!! You're all setup now 🥳💪
+
+Once the yarn packages are installed, you can go crazy on the below scripts (see 'available scripts' section).
 
 ## Available Scripts
 
