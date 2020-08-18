@@ -33,10 +33,10 @@ const Header = ({
 }: Props) => {
   return (
     <div className={styles['container']}>
-      <div onClick={onClickLeftBtn} className={styles['header-left']}>
-        <div>
+      <div className={styles['header-left']}>
           {!hideLeftBtn ? (
             <FontAwesomeIcon
+              onClick={onClickLeftBtn}
               className={styles['fa-back']}
               title="Back"
               icon={faChevronLeft}
@@ -44,8 +44,7 @@ const Header = ({
           ) : (
             ''
           )}
-        </div>
-        <div className={styles['header-title']}>{title}</div>
+          <div className={styles['header-title']}>{title}</div>
       </div>
       {!hideRightBtn && (
         <div onClick={onClickRightBtn} className={styles['header-right']}>
